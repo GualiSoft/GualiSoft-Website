@@ -11,7 +11,7 @@ export const siteConfig = {
   ogImage: ogImage,
   socialLinks: {
     github: "https://github.com/GualiSoft",
-    discord: "https://discord.com",
+    fluxer: "https://fluxer.gg/hPvf0zUo",
   },
   navLinks: [
     { text: "Home", href: "/" },
