@@ -21,25 +21,19 @@ const optimizedImage = await getImage({
 <BaseLayout {metadata}>
     <link slot="head" rel="preload" href={optimizedImage.src} as="image" />
     <Content2
-        title="Our Vision"
+        title="Gualidan"
         description={[
-            "In a world where hardware gets more and more expensive performance is key.",
+            "Founder of GualiSoft.",
         ]}
-        tagline="About"
+        tagline="Who"
         image={aboutImage}
         imageAlt="Modern web development office"
         actions={[
             {
-                text: "Contact Us",
+                text: "Portfolio",
                 href: "https://gualidan.vercel.app",
                 variant: "primary",
                 icon: "lucide:mail",
-            },
-            {
-                text: "View Details",
-                href: "#",
-                variant: "secondary",
-                icon: "lucide:arrow-right",
             },
         ]}
     />
