@@ -6,20 +6,9 @@ import Values from "../components/widgets/Values.astro";
 import aboutImage from "../assets/images/about-office.webp";
 
 <BaseLayout {metadata}>
-    <link slot="head" rel="preload" href={optimizedImage.src} as="image" />
     <Content2
         title="Gualidan"
-        description="Linux Enthusiast and open source developer.",
-        tagline="About"
-        image={aboutImage}
-        imageAlt="Modern web development office"
-        actions={[
-            {
-                text: "Portfolio",
-                href: "https://github.com/Gualidan",
-                variant: "primary",
-                icon: "lucide:mail",
-            },
-        ]}
+        description="Linux Enthusiast and open source developer."
     />
 </BaseLayout>
+
