@@ -19,6 +19,5 @@ export const siteConfig = {
     { text: "Services", href: "/services" },
     { text: "Blog", href: "/blog" },
     { text: "Contact", href: "/contact" },
-    { text: "Widgets", href: "/widgets" },
   ],
 };
