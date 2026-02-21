@@ -3,7 +3,7 @@ import ogImage from "../assets/og-image.png";
 export const siteConfig = {
   name: "GualiSoft",
   description: "Creators of GSWM, GualiTerm ans more",
-  url: "https://astrostarterpro.com",
+  url: "https://gualisoft.vercel.app",
   lang: "en",
   locale: "en_US",
   author: "Gualidan",
