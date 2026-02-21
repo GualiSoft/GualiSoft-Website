@@ -43,6 +43,7 @@ const finalIgnoreTitleTemplate = metadata?.ignoreTitleTemplate || false;
             ignoreTitleTemplate={finalIgnoreTitleTemplate}
         />
         <Schema type="WebSite" data={{}} />
+        <Analytics />
         <slot name="head" />
         <script is:inline>
             const getTheme = () => {
@@ -97,6 +98,5 @@ const finalIgnoreTitleTemplate = metadata?.ignoreTitleTemplate || false;
             <Footer />
         </div>
         <SpeedInsights />
-        <Analytics />
     </body>
 </html>
