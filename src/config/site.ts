@@ -1,17 +1,16 @@
 import ogImage from "../assets/og-image.png";
 
 export const siteConfig = {
-  name: "Astro Starter Pro",
-  description: "Starter template optimizado para SEO y performance",
+  name: "GualiSoft",
+  description: "Creators of GSWM, GualiTerm ans more",
   url: "https://astrostarterpro.com",
   lang: "en",
   locale: "en_US",
-  author: "Devgelo",
-  twitter: "@Devgelo",
+  author: "Gualidan",
+  twitter: "",
   ogImage: ogImage,
   socialLinks: {
-    twitter: "https://twitter.com",
-    github: "https://github.com/devgelo-labs/astro-starter-pro",
+    github: "https://github.com/GualiSoft",
     discord: "https://discord.com",
   },
   navLinks: [
