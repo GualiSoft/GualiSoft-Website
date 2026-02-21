@@ -3,7 +3,6 @@ import sitemap from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
 import icon from "astro-icon";
 import remarkReadingTime from "remark-reading-time";
-import Analytics from '@vercel/analytics/astro'
 
 export default defineConfig({
   site: "https://astrostarterpro.com/",
