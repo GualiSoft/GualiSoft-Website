@@ -2,7 +2,7 @@ import ogImage from "../assets/og-image.png";
 
 export const siteConfig = {
   name: "GualiSoft",
-  description: "Creators of GSWM, GualiTerm ans more",
+  description: "Creators of GSWM, GualiTerm and more",
   url: "https://gualisoft.vercel.app",
   lang: "en",
   locale: "en_US",
